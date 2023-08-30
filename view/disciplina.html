@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Acadêmico - IFPB</title>
+</head>
+
+<body>
+
+    <label for="">Código:</label>
+    <input id="codigo" type="number"><br>
+    <label for="">Nome:</label>
+    <input id="nome"><br>
+
+    <!-- TODO Criar dentro da ol
+    <label for="">Alunos:</label>
+    <input id="alunos"><br> -->
+
+    <button onclick="controladorDisciplina.inserir()">Cadastrar</button>
+
+    <ol id="listaDisciplinas">
+    </ol>
+
+    <script src="../modelo/disciplina.js"></script>
+    <script src="../modelo/aluno.js"></script>
+    <script src="../repositorio/disciplina_repositorio.js"></script>
+    <script src="../servico/disciplina_service.js"></script>
+    <script src="../controlador/disciplina_controlador.js"></script>
+    <script src="../scriptControlador.js"></script>
+</body>
+</html>
