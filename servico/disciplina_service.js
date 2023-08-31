@@ -28,9 +28,6 @@ class DisciplinaService {
 
     inserirAlunoNaDisciplina(codigo, aluno) {
         return this.repositorio.inserirAlunoNaDisciplina(codigo, aluno);
-
-        // alert('Disciplina já cadastrada! A Disciplina que você está tentando inserir já está cadastrada.');
-        // throw new Error('Aluno já cadastrado!');
     }
 
     listarAlunos(codigo) {
